@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cartao-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+}
+
+.imagem-produto{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+

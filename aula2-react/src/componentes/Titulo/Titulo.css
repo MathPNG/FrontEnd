@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo-principal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    color: black;
+    background-color: darkgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-indent: 30px;
+}
+
+.imagem-titulo{
+    display: block;
+    margin: auto;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.imagem-titulo:hover{
+    width: 270px;
+}
