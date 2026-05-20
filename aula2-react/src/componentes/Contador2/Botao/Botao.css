@@ -1,0 +1,26 @@
+.Botao {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+.Botao:hover {
+  transform: scale(1.05);
+}
+
+.incrementar {
+  background-color: #28a745;
+}
+
+.decrementar {
+  background-color: #dc3545;
+}
+
+.limpar {
+  background-color: #6c757d;
+}

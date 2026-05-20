@@ -1,0 +1,22 @@
+.ContadorContainer {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  color: #1e1e1e;
+  box-shadow: 0 0 15px rgba(89, 89, 89, 0.4);
+}
+
+.ContadorContainer h1 {
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+
+.Botoes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}

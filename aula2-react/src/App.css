@@ -1,12 +1,70 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+h2{
+  margin: 20px 0;
+  text-align: center;
+  color: #333;
 }
 
 hr{
-  margin: 10px;
-  background-color: blue;
-  width: 100%;
-  height: 5px;
+  margin: 20px 0;
+  border: none;
+  height: 3px;
+  background-color: #4f46e5;
+  border-radius: 10px;
 }
 
+/* Container dos produtos */
+.lista-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Card */
+.cartao-produto{
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+}
+
+.cartao-produto:hover{
+  transform: translateY(-5px);
+}
+
+/* Imagem */
+.cartao-produto img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Nome */
+.cartao-produto h3{
+  color: #222;
+  font-size: 22px;
+}
+
+/* Preço */
+.cartao-produto p{
+  color: #16a34a;
+  font-size: 20px;
+  font-weight: bold;
+}

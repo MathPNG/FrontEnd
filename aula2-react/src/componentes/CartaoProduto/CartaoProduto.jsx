@@ -1,4 +1,5 @@
 import React from 'react';
+import './CartaoProduto.css';
 
 const CartaoProduto = (props) => {
   return (
