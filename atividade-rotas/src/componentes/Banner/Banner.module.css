@@ -1,0 +1,30 @@
+.banner{
+    padding: 3rem 7.5rem 6.25rem;
+    background-color: rgb(35, 65, 145);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.imagem{
+    position: absolute;
+    right: 30%;
+    top: 17%;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 50%;
+}
